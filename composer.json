@@ -3,7 +3,7 @@
   "type": "asgard-theme",
   "description": "An AsgardCMS Kallyas bootswatch theme",
   "keywords": [
-    "pmixsolutions-cms"
+    "asgard-cms"
   ],
   "license": "MIT",
   "authors": [
@@ -25,5 +25,11 @@
       "php artisan stylist:publish"
     ]
   },
-  "minimum-stability": "dev"
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.0.x-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }

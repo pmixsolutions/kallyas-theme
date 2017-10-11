@@ -6,10 +6,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ URL::to('/') }}">{{ Setting::get('core::site-name') }}</a>
+            <a class="navbar-brand" href="{{ URL::to('/') }}">@setting('core::site-name')</a>
         </div>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
-            {!! Menu::get('main') !!}
+            @menu('main')
         </div>
     </div>
 </nav>
