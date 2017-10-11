@@ -1,0 +1,29 @@
+{
+  "name": "pmixsolutions/kallyas-theme",
+  "type": "asgard-theme",
+  "description": "An AsgardCMS Kallyas bootswatch theme",
+  "keywords": [
+    "pmixsolutions-cms"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "pmixsolutions",
+      "email": "hello@pmixsolutions.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "composer/installers": "~1.0"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php artisan stylist:publish"
+    ],
+    "post-update-cmd": [
+      "php artisan stylist:publish"
+    ]
+  },
+  "minimum-stability": "dev"
+}

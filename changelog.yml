@@ -1,0 +1,5 @@
+url: https://github.com/pmixsolutions/Kallyas-theme
+versions:
+    "1.0.0":
+        changed:
+            - Initial release
